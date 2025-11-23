@@ -1,0 +1,46 @@
+================================================================================
+NOTICE FILE
+This product includes data or text derived from the following Mandatory National
+Standards of the People's Republic of China.
+================================================================================
+
+--------------------------------------------------------------------------------
+1. General code for engineering structures (GB 55001-2021)
+--------------------------------------------------------------------------------
+Package Name:       GB 55001-2021 Data/Extracts
+SPDX-License-Identifier: LicenseRef-CN-Legislative-Material
+Originator:         Ministry of Housing and Urban-Rural Development (MOHURD), P.R.C.
+Source:             https://www.mohurd.gov.cn/
+Description:        Mandatory technical code for engineering structures.
+
+--------------------------------------------------------------------------------
+2. Gas-fired heating water heaters (GB 25034-2020)
+--------------------------------------------------------------------------------
+Package Name:       GB 25034-2020 Data/Extracts
+SPDX-License-Identifier: LicenseRef-CN-Legislative-Material
+Originator:         State Administration for Market Regulation (SAMR), P.R.C.
+Source:             https://std.samr.gov.cn/
+Description:        Mandatory safety and performance standard for gas-fired
+                    heating water heaters.
+
+================================================================================
+LICENSE DEFINITION: LicenseRef-CN-Legislative-Material
+================================================================================
+This component consists of data, text, or specifications extracted from
+Mandatory National Standards (GB series) of the People's Republic of China.
+
+Legal Basis:
+According to Article 5 of the "Copyright Law of the People's Republic of China":
+"This Law shall not be applicable to: (1) laws, regulations, resolutions,
+decisions, orders of state organs, other documents of legislative, administrative
+or judicial nature, and their official translations."
+
+Mandatory National Standards (GB prefix) possess the nature of technical
+regulations and are legally binding within China. As such, the text content
+of these standards falls into the public domain and is exempt from copyright
+protection to ensure free dissemination and compliance.
+
+Constraint:
+This license applies only to the normative text, formulas, and data tables
+of the standard. It does not extend to the publisher's typographical
+arrangement, editorial prefaces, or cover designs.

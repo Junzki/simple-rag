@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Main FastAPI application."""
 
 from fastapi import FastAPI
