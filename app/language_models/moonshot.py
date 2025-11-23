@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import typing as ty
 
+import asyncio
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -54,3 +55,12 @@ class MoonshotLanguageModel(object):
     ) -> str:
         response = self.rag_chain.invoke(question)
         return response
+
+    async def stream_generate_text(
+        self,
+        question: str,
+    ):
+        async for chunk in self.rag_chain.astream(question):
+            yield chunk
+
+        await asyncio.sleep(0)  # Ensure generator is async

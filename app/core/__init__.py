@@ -24,3 +24,6 @@ class SimpleRAG(object):
         self.language_model = MoonshotLanguageModel(
             retriever=self.storage.as_retriever(5)
         )
+
+
+rag = SimpleRAG()

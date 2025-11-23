@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     api_v1_prefix: str = "/api/v1"
 
     # CORS settings
-    cors_origins: ty.List[str] = ["http://localhost:3000", "http://localhost:8000"]
+    cors_origins: ty.List[str] = ["http://localhost:3000", "http://localhost:8000", "http://localhost:5173"]
 
     llm_base_url: str = 'https://api.moonshot.cn/v1'
     llm_model: str = 'kimi-k2-turbo-preview'

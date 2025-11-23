@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """API v1 endpoints."""
-
 from fastapi import APIRouter
+from .llm_chat import router as llm_chat_router
 
 router = APIRouter()
+router.include_router(llm_chat_router)
 
 
 @router.get("/health")
