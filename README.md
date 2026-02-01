@@ -1,4 +1,6 @@
 # simple-rag
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FJunzki%2Fsimple-rag.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FJunzki%2Fsimple-rag?ref=badge_shield)
+
 
 A simple RAG (Retrieval-Augmented Generation) application built with FastAPI.
 
@@ -128,3 +130,5 @@ simple-rag/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FJunzki%2Fsimple-rag.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FJunzki%2Fsimple-rag?ref=badge_large)
